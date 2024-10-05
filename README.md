@@ -25,6 +25,10 @@ This lib has been tested and working successfully on ODI DFP-34X-2C2 (more info 
 * Update your uClibc MIPS/Lexra GCC toolchain prefix in *Makefile*, if needed.
   * Tweaks on linked libraries or some GCC args may be needed too, this has been tested with a old GCC 5.4.0 toolchain only.
 * Compile *.so* with
+
+## ARM
+* To complie for native RTL960x ARM64 (RTL9607DQ), please use Ubuntu 19.10 amd64, also change Ubuntu apt to old repo
+
 ```
 make
 ```
